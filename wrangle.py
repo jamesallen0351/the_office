@@ -56,6 +56,8 @@ def guest_office():
     df = df.rename(columns={"Unnamed: 0": "Episode", "EpisodeTitle": "Episode_Title", "GuestStars": "Guest_Stars"})
     # convert column names to lowercase
     df.columns = [col.lower() for col in df]
+    # adding a color column to the df
+    df['color'] = df['ratings'].apply(set_color)
     # saving the office data to a csv
     df.to_csv('the_office_guest.csv')
     
