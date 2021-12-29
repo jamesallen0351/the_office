@@ -4,6 +4,17 @@
 
 import pandas as pd
 
+# color function
+def set_color(ratings):
+    if ratings < 7.4:
+        return 'red'
+    elif (ratings >= 7.4) & (ratings < 8.2):
+        return 'yellow'
+    elif (ratings >= 8.2) & (ratings < 9.0):
+        return 'lightgreen'
+    elif (ratings >= 9.0):
+        return 'darkgreen'
+
 # The Office Function
 def the_office():
     '''
@@ -21,6 +32,8 @@ def the_office():
     df = df.rename(columns={"Unnamed: 0": "Episode", "EpisodeTitle": "Episode_Title"})
     # convert column names to lowercase
     df.columns = [col.lower() for col in df]
+    # adding a color column to the df
+    df['color'] = df['ratings'].apply(set_color)
     # saving the office data to a csv
     df.to_csv('the_office.csv')
     
