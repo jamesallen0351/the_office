@@ -63,3 +63,17 @@ def guest_office():
     
     return df
     
+# Number of episodes per season
+
+def season_episodes():
+    '''
+    function that takes the office df and 
+    makes a new df with the season and 
+    number of episodes per season
+    '''
+    # getting the office data
+    df = the_office()
+    # creating a new df with seasons and episodes
+    df_episodes = df.groupby('season').size().reset_index(name='episodes')
+    
+    return df_episodes
