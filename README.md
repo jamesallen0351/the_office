@@ -14,7 +14,7 @@ Repo for exploring The Office data
     - Let's see how popular the office is
     - What is the most popular episode(s) / season(s)
     - How was each episode viewed? How many viewers?
-    - Maybe time series of episodes/season popularity 
+    - Maybe time series or clusters of episodes/season popularity 
     - Guest stars popularity / views
 
 

@@ -77,3 +77,15 @@ def season_episodes():
     df_episodes = df.groupby('season').size().reset_index(name='episodes')
     
     return df_episodes
+
+def max_views():
+    '''
+    function that takes the office data
+    and findes the episode with the most views
+    '''
+    # getting the office data
+    df = the_office()
+    # getting the episode data with the most views
+    max_views = df.loc[df.viewership.idxmax()]
+    
+    return max_views
