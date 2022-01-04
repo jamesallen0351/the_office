@@ -89,3 +89,18 @@ def max_views():
     max_views = df.loc[df.viewership.idxmax()]
     
     return max_views
+
+def cluster_df():
+    '''
+    function to make a dataframe for clustering
+    takes the office data and drops columns
+    then changes the dataframe to integers
+    '''
+    # getting the office data
+    df = the_office()
+    # dropping columns that are not needed for clustering
+    df.drop(columns=['episode_title', 'about', 'date', 'director', 'writers', 'color', 'votes', 'duration', 'viewership', 'season'], inplace=True)
+    # changing the dataframe type to integers
+    df = df.astype(int)
+    
+    return df
