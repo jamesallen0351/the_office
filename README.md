@@ -25,8 +25,18 @@ Repo for exploring The Office data
 
 # Prepare
 
+- Checked for null values
+- Created Guest DF and then dropped GuestStars on original df
+- Added Color color column based off ratings
+- Clean up column names for readability
+- Save new df to csv file
+
 
 # Explore
+
+- Look at episode with the most views
+- Look at number of seasons and episodes per season
+
 
 
 # Conclusion
