@@ -14,8 +14,9 @@ Repo for exploring The Office data
     - Let's see how popular the office is
     - What is the most popular episode(s) / season(s)
     - How was each episode viewed? How many viewers?
-    - Maybe time series or clusters of episodes/season popularity 
-    - Guest stars popularity / views
+    - Maybe clusters of episodes/season popularity
+    - Time series of views or ratings
+    - Guest stars popularity / views ?
 
 
 # Acquire
@@ -27,7 +28,7 @@ Repo for exploring The Office data
 
 - Checked for null values
 - Created Guest DF and then dropped GuestStars on original df
-- Added Color color column based off ratings
+- Added color column based off ratings
 - Clean up column names for readability
 - Save new df to csv file
 
@@ -36,8 +37,13 @@ Repo for exploring The Office data
 
 - Look at episode with the most views
 - Look at number of seasons and episodes per season
+- Histogram of the data
 
 
+# Modeling
+
+- Time Series 
+- Clustering
 
 # Conclusion
 
