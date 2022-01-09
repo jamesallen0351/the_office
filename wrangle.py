@@ -104,3 +104,31 @@ def cluster_df():
     df = df.astype(int)
     
     return df
+
+# time series function
+
+def office_time():
+    '''
+    fucntion to take the office data and convert the date column
+    to datetime, then add year, month, day, weekday columns
+    set a new index to the date column, save a csv file and 
+    print the date range and shape of df
+    '''
+    # getting the office data
+    df = the_office()
+    # converting the date column to datetime
+    df.date = pd.to_datetime(df.date)
+    # adding columns for year, month, day, and weekday
+    df['year'] = df.date.dt.year
+    df['month'] = df.date.dt.month
+    df['day'] = df.date.dt.day
+    df['weekday'] = df.date.dt.day_name()
+    # setting the df index to the date column
+    df = df.set_index('date').sort_index()
+    # saving the office data to a csv
+    df.to_csv('office_time.csv')
+    # printing out the date range and shape of the df
+    print('Date Range:', df.index.min(), 'to', df.index.max())
+    print('Shape:', df.shape)
+    
+    return df
