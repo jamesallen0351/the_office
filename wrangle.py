@@ -136,13 +136,15 @@ def office_time():
 # making a function
 def office_time_model():
     '''
-    
+    this function takes the office time data and then 
+    drops columns not needed for modeling and
+    returns a model new df
     '''
     df = office_time()
     
     # dropping columns that are not needed for modeling purposes
     df = df.drop(columns= {'episode_title', 'episode', 'season', 'about', 'director', 'writers', 
                            'color', 'year', 'month', 'day', 'weekday', 'votes', 'duration'})
-    print('Shape:', df.shape)
+    print('Model DF Shape:', df.shape)
     
     return df
