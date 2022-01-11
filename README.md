@@ -20,6 +20,7 @@ Repo for exploring The Office data
 
 
 # Acquire
+
 - Download The Office Series csv file
 - Open csv file in a jupyter notebook
 
@@ -31,6 +32,7 @@ Repo for exploring The Office data
 - Added color column based off ratings
 - Clean up column names for readability
 - Save new df to csv file
+- Converted date column to timeseries and save new df
 
 
 # Explore
@@ -38,7 +40,7 @@ Repo for exploring The Office data
 - Look at episode with the most views
 - Look at number of seasons and episodes per season
 - Histogram of the data
-
+- 
 
 # Modeling
 
@@ -46,6 +48,9 @@ Repo for exploring The Office data
 - Clustering
 
 # Conclusion
+
+- Most popular episode: "Stress Relief"
+![stress_relief](dwight.jpeg)
 
 
 ## Source
