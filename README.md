@@ -49,7 +49,8 @@ Repo for exploring The Office data
 
 # Conclusion
 
-- Most popular episode: "Stress Relief"
+#### Most popular episode: "Stress Relief"
+
 ![stress_relief](dwight.jpeg)
 
 
