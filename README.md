@@ -58,4 +58,4 @@ Repo for exploring The Office data
 
 - The office data set was obtained from: [The Office Data](https://www.kaggle.com/nehaprabhavalkar/the-office-dataset)
 
-- Watch The Office here: [The_Office](https://www.peacocktv.com/the-office-on-peacock?gclsrc=aw.ds&gclid=CjwKCAiAlfqOBhAeEiwAYi43FxAbt_tCgVsAz1kXmuvdiZzYmbLT9JaXC0GSKn0SxT6KFDmE5P9WDhoCPb8QAvD_BwE&gclsrc=aw.ds)
+- Watch The Office here: [The Office](https://www.peacocktv.com/the-office-on-peacock?gclsrc=aw.ds&gclid=CjwKCAiAlfqOBhAeEiwAYi43FxAbt_tCgVsAz1kXmuvdiZzYmbLT9JaXC0GSKn0SxT6KFDmE5P9WDhoCPb8QAvD_BwE&gclsrc=aw.ds)
