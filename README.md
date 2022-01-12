@@ -40,7 +40,7 @@ Repo for exploring The Office data
 - Look at episode with the most views
 - Look at number of seasons and episodes per season
 - Histogram of the data
-- 
+- Scatterplots and bar charts
 
 # Modeling
 
@@ -57,3 +57,5 @@ Repo for exploring The Office data
 ## Source
 
 - The office data set was obtained from: [The Office Data](https://www.kaggle.com/nehaprabhavalkar/the-office-dataset)
+
+- Watch The Office here: [The_Office](https://www.peacocktv.com/the-office-on-peacock?gclsrc=aw.ds&gclid=CjwKCAiAlfqOBhAeEiwAYi43FxAbt_tCgVsAz1kXmuvdiZzYmbLT9JaXC0GSKn0SxT6KFDmE5P9WDhoCPb8QAvD_BwE&gclsrc=aw.ds)
