@@ -101,7 +101,7 @@ def cluster_df():
     # dropping columns that are not needed for clustering
     df.drop(columns=['episode_title', 'about', 'date', 'director', 'writers', 'color', 'votes', 'duration', 'viewership', 'season'], inplace=True)
     # changing the dataframe type to integers
-    df = df.astype(int)
+    #df = df.astype(int)
     
     return df
 
