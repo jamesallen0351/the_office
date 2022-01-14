@@ -48,7 +48,6 @@ Repo for exploring The Office data
     - Last Observed Value
     - Simple Average
     - Moving Average
-    - 
 
 - Clustering:
     - K-Means
@@ -57,6 +56,8 @@ Repo for exploring The Office data
 # Conclusion
 
 #### Most popular episode: "Stress Relief"
+
+- Here is a image from that episode
 
 ![stress_relief](dwight.jpeg)
 
