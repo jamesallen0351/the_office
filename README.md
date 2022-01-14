@@ -44,14 +44,26 @@ Repo for exploring The Office data
 
 # Modeling
 
-- Time Series 
-- Clustering
+- Time Series:
+    - Last Observed Value
+    - Simple Average
+    - Moving Average
+    - 
+
+- Clustering:
+    - K-Means
+    - Elbow Method
 
 # Conclusion
 
 #### Most popular episode: "Stress Relief"
 
 ![stress_relief](dwight.jpeg)
+
+
+- 9 Total seasons of The Office
+- First episode aired on March 24th 2005 (also my birthday)
+- The last episode aired on May 16th 2013 (also the highest rated episode of the entire series)
 
 
 ## Source
