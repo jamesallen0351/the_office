@@ -6,6 +6,22 @@ Repo for exploring The Office data
 
 ## "I Understand Nothing."  - Michael Scott
 
+## Data Dictionary
+| Feature | Definition | Data Type | Notes |
+| ------- | ---------- | --------- | ----- |
+| episode | number of episode | int64 | index of episode number starting at zero |
+| season  | season number | int64 | season number that the episode was in |
+| episode_title | title of the episode | object | episode title |
+| about | what the episode is about | object | summary of what the episode is about |
+| ratings | episode ratings | float64 | viewer ratings for the episode |
+| votes | number of votes | int64 | number of votes for ratings in the episode |
+| viewership | number of episode views | float64 | how many views there were of the episode in millions |
+| duration | how long the episode is | int64 | length of the episode |
+| date | day episode aired on tv | object | day the episode first aired on tv (changed to datetime in timeseries) |
+| director | who directed the episode | object | specific director for the episode |
+| writers | names of writers | object | names of writers who wrote the episode |
+| color | color based on ratings | object | color category based on episode ratings (red, yellow, lightgreen, darkgreen) |
+
 
 # Planning
 
